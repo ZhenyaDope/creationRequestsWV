@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    padding:50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top:30px;
+    width: 500px;
+    min-height: 400px;
+    overflow: hidden;
+    background-color: #eef2f5;
+}
+.keyword,.result{
+    color:#3b3e46;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.result {
+    display: none;
+    border: 2px solid #4ef84e;
+}
+.error{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid red;
+    font-size:16px;
+    display: none;
+    font-weight:bold;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input{
+    color:#3b3e46;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 10px;
+}
+button{
+    height: 50px;
+    border:1px solid #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:14px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    color:#fff;
+    background-color: #7e5dfc;
+}
+.author{
+    margin-top: 20px;
+    color:#ccc;
+}
+.linkGit{
+    text-decoration: none;
+    color:rgb(153, 146, 146);
+}
