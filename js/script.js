@@ -9,7 +9,7 @@ const site = document.querySelector('.site'),
 	createBtn = document.querySelector('.createBtn');
 
 function checkValueInput() {
-	return keywords.value != false && inputN.value != false && inputSclick.value != false && inputPar.value != false
+	return keywords.value != false && inputN.value != false && inputSclick.value != false && inputPar.value >= 0
 		? true
 		: false;
 }
